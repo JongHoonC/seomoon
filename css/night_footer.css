@@ -1,0 +1,79 @@
+@import url(common/reset.css);
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px 20px 0 0;
+}
+/*left footer*/
+.left_footer {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left_footer > h1 {
+  text-align: center;
+  width: 40%;
+  color: #ffffff;
+}
+/*middle footer*/
+.middle_footer {
+  width: 20%;
+}
+
+.middle_footer > ul {
+  margin-top: 9px;
+}
+.middle_footer > ul > li {
+  padding: 2px;
+  box-sizing: border-box;
+}
+.middle_footer > ul > li > a {
+  color: #ffffff;
+}
+
+/*right footer*/
+.right_footer {
+  width: 40%;
+}
+
+.right_footer_top {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.right_footer_top > ul > li > a {
+  color: #ffffff;
+  font-size: 12px;
+}
+.right_footer_top > ul > li > a > img {
+  margin-right: 10px;
+}
+
+.right_footer_bottom {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+}
+
+.right_footer_bottom > ul {
+  display: flex;
+}
+.right_footer_bottom > ul > li {
+  padding: 0 7px;
+}
+
+@media (max-width: 760px) {
+  .middle_footer {
+    display: none;
+  }
+  .left_footer > h1 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,120 @@
+@import url(common/reset.css);
+
+.bottom_container {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.bottom_container h1 {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.bottom_container .main_con {
+  width: 1240px;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  background-color: #6d6d6d;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+
+.main_con .left_con {
+  width: 40%;
+}
+
+.main_con .right_con {
+  width: 60%;
+}
+
+.main_con .right_con .youtube {
+  height: auto;
+  overflow: hidden;
+}
+
+.main_con .right_con .youtube iframe {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main_con .left_con table {
+  width: 100%;
+  /* margin: 0 auto; */
+}
+
+.left_con > table > thead > tr > th {
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .bottom_container > .main_con {
+    width: 100%;
+  }
+  .bottom_container {
+    width: 100%;
+  }
+
+  .main_con > .left_con {
+    width: 100%;
+    margin: 0 auto;
+  }
+  thead > tr > th {
+    color: #fff;
+    font-size: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  thead {
+    font-size: 50px;
+  }
+  td > a {
+    margin-left: 30px;
+    font-size: 16px;
+  }
+
+  tbody > tr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main_con .right_con {
+    width: 100%;
+  }
+}
+
+@media (max-width: 947px) {
+  tbody > tr > td:nth-child(1) > a {
+    margin-left: 0;
+    width: 80%;
+  }
+
+  tbody > tr {
+    width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .bottom_container > .main_con {
+    width: 85%;
+  }
+  .main_con .right_con {
+    width: 100%;
+  }
+
+  .main_con {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom_container > .main_con > .left_con {
+    margin-bottom: 20px;
+  }
+}

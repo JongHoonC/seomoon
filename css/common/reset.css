@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+html,
+body {
+  width: 100%;
+  height: auto;
+}
+
+
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  list-style: none;
+}

@@ -1,0 +1,43 @@
+@import url(common/reset.css);
+
+.container {
+  width: 100%;
+  background-color: #424242;
+  margin-bottom: 50px;
+}
+
+.top_container {
+  height: 600px;
+  width: 1440px;
+  margin: 0 auto;
+  background: url(../img/night_main.jpg) no-repeat 50% / cover;
+  border-radius: 20px;
+}
+
+.title {
+  padding-top: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  color: aliceblue;
+  height: 400px;
+  z-index: 1;
+}
+
+.top_container .title h2,
+p {
+  align-items: center;
+  margin: 10px;
+  font-weight: bold;
+}
+@media (max-width: 1440px){
+  .top_container{
+    width: 95%;
+  }
+}
+
+
+@media (max-width: 760px) {
+  .top_container {
+    width: 95%;
+  }
+}

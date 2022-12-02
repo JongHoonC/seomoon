@@ -1,0 +1,80 @@
+@import url(common/reset.css);
+@import url(light_header.css);
+@import url(light_footer.css);
+
+.signin {
+  margin: 100px;
+  margin: 0 auto;
+  width: 25%;
+  height: 360px;
+  background-color: #dfdfd3d5;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  position: relative;
+  top: 100px;
+  align-items: center;
+  margin-bottom: 440px;
+}
+
+.top_signin {
+  height: 250px;
+
+}
+
+.top_signin>h2 {
+  text-align: center;
+  color: #94af76;
+  padding: 10px;
+}
+
+.top_signin>ul {
+  padding: 10px;
+  position: relative;
+}
+
+.top_signin>ul>li:nth-child(1) {
+  font-size: 12px;
+}
+
+.top_signin>ul>li:nth-child(2) {
+  padding: 7px 0;
+}
+
+.top_signin>ul>li:nth-child(3) {
+  font-size: 12px;
+  padding: 7px 0;
+}
+
+.top_signin>ul>li:nth-child(4) {
+  font-size: 12px;
+}
+
+.top_signin>ul>li:nth-child(5) {
+  font-size: 12px;
+  background-color: #94af76;
+  text-align: center;
+  margin: 12px 0 10px 0;
+  border-radius: 20px;
+}
+
+.top_signin>ul>li:nth-child(6) {
+  font-size: 12px;
+  text-align: center;
+  background-color: #94af76;
+  border-radius: 20px;
+}
+
+.top_signin>ul>li:nth-child(5)>a {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.top_signin>ul>li:nth-child(6)>a {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+@import url(night_footer.css);
