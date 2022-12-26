@@ -1,34 +1,28 @@
-@import url(common/reset.css);
-
-@import url(night_header.css);
-@import url(night_footer.css);
-
 .signUp {
   display: flex;
+  align-items: center;
   justify-content: center;
-  position: relative;
-  top: 100px;
-  width: 25%;
-  height: 360px;
-  margin: 0 auto;
-  margin-bottom: 440px;
+  width: 468px;
+  margin: 100px auto;
+  padding: 100px 20px;
   border-radius: 20px;
   background-color: #6d6d6d;
+  box-sizing: border-box;
 }
 
 .top_signUp {
   width: 100%;
-  height: 300px;
 }
 
 .top_signUp > ul {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  width: 50%;
-  height: 300px;
+  width: 70%;
   margin: 0 auto;
 }
 
-.top_signUp > ul > li {
+.top_signUp > ul > div > li {
   padding: 10px 0 0 10px;
   color: #ffffff;
 }
@@ -39,43 +33,11 @@
   text-align: center;
 }
 
-.top_signUp > ul > li:nth-child(1) {
-  font-size: 12px;
-  /* padding: 5px 0; */
-}
-
-.top_signUp > ul > li:nth-child(2) {
+.top_signUp > ul > div > li {
   font-size: 12px;
 }
 
-.top_signUp > ul > li:nth-child(3) {
-  font-size: 12px;
-  /* padding: 5px 0; */
-}
-
-.top_signUp > ul > li:nth-child(4) {
-  font-size: 12px;
-}
-
-.top_signUp > ul > li:nth-child(5) {
-  font-size: 12px;
-  /* padding: 5px 0; */
-}
-
-.top_signUp > ul > li:nth-child(6) {
-  font-size: 12px;
-}
-
-.top_signUp > ul > li:nth-child(7) {
-  font-size: 12px;
-  /* padding: 5px 0; */
-}
-
-.top_signUp > ul > li:nth-child(8) {
-  font-size: 12px;
-}
-
-.top_signUp > ul > li:nth-child(9) {
+.top_signUp > ul > div > li:nth-child(9) {
   position: relative;
   top: 10px;
   left: 0px;
@@ -87,7 +49,7 @@
   text-align: center;
 }
 
-.top_signUp > ul > li:nth-child(9) > a {
+.top_signUp > ul > div > li:nth-child(9) > a {
   position: relative;
   right: 5px;
   bottom: 4px;
@@ -95,4 +57,23 @@
   color: #ffffff;
 }
 
-@import url(night_footer.css);
+.top_signUp > ul > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#GOLOGIN {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 40px auto 0 auto;
+  padding: 10px 0;
+  background-color: #121212;
+  color: #bbb;
+  text-align: center;
+  box-sizing: border-box;
+}
+input {
+  border: none;
+}

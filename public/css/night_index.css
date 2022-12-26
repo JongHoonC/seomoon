@@ -7,6 +7,8 @@
 @import url(night_gallery.css);
 @import url(night_footer.css);
 
+@import url(night_sign-in.css);
+@import url(night-sign-up.css);
 * {
   font-family: 'Noto Sans KR', sans-serif;
 }

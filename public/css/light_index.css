@@ -6,6 +6,9 @@
 @import url(light_notice.css);
 @import url(light_gallery.css);
 @import url(light_footer.css);
+
+@import url(light-sign-up.css);
+@import url(light_sign-in.css);
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #121212;

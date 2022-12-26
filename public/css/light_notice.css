@@ -15,8 +15,10 @@ td {
 
 .left_con > table > tbody > tr > td {
   margin-right: 50px;
+  padding: 10px 0;
   font-size: 13px;
   color: #94af76;
+  box-sizing: border-box;
 }
 .left_con > table > tbody > tr > td:nth-child(2) {
   text-align: center;

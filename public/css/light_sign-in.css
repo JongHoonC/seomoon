@@ -6,9 +6,12 @@
   margin: 100px auto;
   padding: 100px 20px;
   border-radius: 20px;
-  background-color: #6d6d6d;
+  background-color: #94af76;
   box-sizing: border-box;
 }
+
+/* .top_signin {
+} */
 
 .top_signin > h2 {
   padding: 10px;
@@ -42,14 +45,14 @@
 .top_signin > form > ul > div > li:nth-child(5) {
   margin: 12px 0 10px 0;
   border-radius: 20px;
-  background-color: #000000;
+  background-color: #94af76;
   font-size: 12px;
   text-align: center;
 }
 
 .top_signin > form > ul > div > li:nth-child(6) {
   border-radius: 20px;
-  background-color: #000000;
+  background-color: #94af76;
   font-size: 12px;
   text-align: center;
 }
@@ -82,22 +85,24 @@ form > ul > div > li > input {
 #GOLOGIN {
   margin-top: 40px;
   padding: 10px 0;
-  background-color: #121212;
-  color: #bbb;
+  border: none;
+  background-color: #fff;
+  color: #94af76;
   box-sizing: border-box;
 }
 
 .goSignIn {
   margin-top: 10px;
   padding: 10px 0;
-  background-color: #121212;
+
+  background-color: #fff;
   font-size: 14px;
-  color: #bbb;
+  color: #94af76;
   box-sizing: border-box;
 }
 .goSignIn > a {
   display: block;
-  color: #bbb;
+  color: #94af76;
   text-align: center;
 }
 
