@@ -1,0 +1,98 @@
+@import url(common/reset.css);
+
+@import url(night_header.css);
+@import url(night_footer.css);
+
+.signUp {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  width: 25%;
+  height: 360px;
+  margin: 0 auto;
+  margin-bottom: 440px;
+  border-radius: 20px;
+  background-color: #6d6d6d;
+}
+
+.top_signUp {
+  width: 100%;
+  height: 300px;
+}
+
+.top_signUp > ul {
+  justify-content: center;
+  width: 50%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.top_signUp > ul > li {
+  padding: 10px 0 0 10px;
+  color: #ffffff;
+}
+
+.top_signUp > h2 {
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.top_signUp > ul > li:nth-child(1) {
+  font-size: 12px;
+  /* padding: 5px 0; */
+}
+
+.top_signUp > ul > li:nth-child(2) {
+  font-size: 12px;
+}
+
+.top_signUp > ul > li:nth-child(3) {
+  font-size: 12px;
+  /* padding: 5px 0; */
+}
+
+.top_signUp > ul > li:nth-child(4) {
+  font-size: 12px;
+}
+
+.top_signUp > ul > li:nth-child(5) {
+  font-size: 12px;
+  /* padding: 5px 0; */
+}
+
+.top_signUp > ul > li:nth-child(6) {
+  font-size: 12px;
+}
+
+.top_signUp > ul > li:nth-child(7) {
+  font-size: 12px;
+  /* padding: 5px 0; */
+}
+
+.top_signUp > ul > li:nth-child(8) {
+  font-size: 12px;
+}
+
+.top_signUp > ul > li:nth-child(9) {
+  position: relative;
+  top: 10px;
+  left: 0px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: #000000;
+  font-size: 18px;
+  text-align: center;
+}
+
+.top_signUp > ul > li:nth-child(9) > a {
+  position: relative;
+  right: 5px;
+  bottom: 4px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+@import url(night_footer.css);

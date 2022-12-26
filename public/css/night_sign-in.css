@@ -1,0 +1,76 @@
+@import url(common/reset.css);
+@import url(night_header.css);
+@import url(night_footer.css);
+
+.signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  width: 25%;
+  height: 360px;
+  margin: 0 auto;
+  margin-bottom: 440px;
+  border-radius: 20px;
+  background-color: #6d6d6d;
+}
+
+.top_signin {
+  margin-top: 20px;
+}
+
+.top_signin > h2 {
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.top_signin > ul {
+  padding: 10px;
+}
+
+.top_signin > ul > li:nth-child(1) {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.top_signin > ul > li:nth-child(2) {
+  padding: 7px 0;
+}
+
+.top_signin > ul > li:nth-child(3) {
+  padding: 7px 0;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.top_signin > ul > li:nth-child(4) {
+  font-size: 12px;
+}
+
+.top_signin > ul > li:nth-child(5) {
+  margin: 12px 0 10px 0;
+  border-radius: 20px;
+  background-color: #000000;
+  font-size: 12px;
+  text-align: center;
+}
+
+.top_signin > ul > li:nth-child(6) {
+  border-radius: 20px;
+  background-color: #000000;
+  font-size: 12px;
+  text-align: center;
+}
+
+.top_signin > ul > li:nth-child(5) > a {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.top_signin > ul > li:nth-child(6) > a {
+  font-size: 20px;
+  color: #ffffff;
+}

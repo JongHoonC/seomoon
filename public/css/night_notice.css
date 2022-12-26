@@ -1,0 +1,42 @@
+@import url(common/reset.css);
+
+table,
+th,
+td {
+  padding: 7px 0;
+  padding-left: 7px;
+  border-collapse: collapse;
+}
+
+.left_con > table > thead > tr > th {
+  font-size: 30px;
+}
+
+.left_con > table > tbody > tr > td {
+  margin-right: 50px;
+  font-size: 13px;
+  color: #000;
+}
+.left_con > table > tbody > tr > td:nth-child(2) {
+  text-align: center;
+}
+.left_con > table > tbody > tr > td > a {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.left_con {
+  display: flex;
+}
+.left_con > table {
+  width: 100%;
+}
+.left_con > table > tbody {
+  margin-top: 40px;
+}
+
+@media (max-width: 947px) {
+  .left_con > table > tbody > tr > td {
+    margin-right: 10px;
+  }
+}
