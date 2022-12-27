@@ -10,21 +10,18 @@
   justify-content: center;
   width: 1440px;
   height: 400px;
-  margin: 40px auto 0 auto;
+  margin: 40px auto;
 }
 
 .middle_container > ul > li {
+  /* text-align: center; */
+  position: relative;
   width: 50%;
-  text-align: center;
-}
-.middle_container > ul > li > a {
-  font-weight: bold;
-  text-align: center;
 }
 
 .middle_container > ul > li:nth-child(1) {
   border-radius: 20px 0 0 20px;
-  background: url(../img/night_sub1_hover.jpg) no-repeat 50% / cover;
+  background: url(../img/night_sub1.png) no-repeat 50% / cover;
   box-sizing: border-box;
   transition: all 1s;
 }
@@ -35,19 +32,18 @@
 }
 
 .middle_container > ul > li:nth-child(2) {
-  background: url(../img/night_sub2_hover.jpg) no-repeat 50% / cover;
+  background: url(../img/night_sub2.png) no-repeat 50% / cover;
   box-sizing: border-box;
   transition: all 1s;
 }
 
 .middle_container > ul > li:nth-child(2):hover {
   background: url(../img/night_sub2_hover.jpg) no-repeat 50% / cover;
-
   transform: translateY(-20px);
 }
 
 .middle_container > ul > li:nth-child(3) {
-  background: url(../img/night-sub3_hover.jpg) no-repeat 50% / cover;
+  background: url(../img/night-sub3.png) no-repeat 50% / cover;
   box-sizing: border-box;
   transition: all 1s;
 }
@@ -59,22 +55,27 @@
 
 .middle_container > ul > li:nth-child(4) {
   border-radius: 0 20px 20px 0;
-  background: url(../img/night-sub4_hover.jpg) no-repeat 50% / cover;
+  background: url(../img/night-sub4.png) no-repeat 50% / cover;
   box-sizing: border-box;
   transition: all 1s;
 }
 
 .middle_container > ul > li:nth-child(4):hover {
   background: url(../img/night-sub4_hover.jpg) no-repeat 50% / cover;
-  transition: all 1s;
   transform: translateY(-20px);
 }
 
 .middle_container > ul > li > a {
-  position: relative;
-  top: 100px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
   font-size: 30px;
+  font-weight: bold;
   color: #ffffff;
+  text-align: center;
+  transform: translate(-50%);
 }
 
 @media (max-width: 1700px) {
@@ -119,6 +120,10 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    min-width: 460px;
+  }
+  .middle_container > ul > li {
+    width: 48%;
+    margin: 0 5px 5px 0;
+    border-radius: 20px;
   }
 }

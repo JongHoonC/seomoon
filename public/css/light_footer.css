@@ -5,8 +5,10 @@
   justify-content: space-between;
   width: 100%;
   height: 150px;
+  padding: 0 10px;
   border-radius: 20px 20px 0 0;
   background-color: #94af76;
+  box-sizing: border-box;
 }
 /*left footer*/
 .left_footer {
@@ -20,13 +22,13 @@
 .left_footer > h1 {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 100%;
   color: #ffffff;
   text-align: center;
 }
 /*middle footer*/
 .middle_footer {
-  width: 20%;
+  width: 30%;
 }
 
 .middle_footer > ul {
@@ -77,5 +79,14 @@
   }
   .left_footer > h1 {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 450px) {
+  .left_footer {
+    width: 30%;
+  }
+  .right_footer {
+    width: 55%;
   }
 }

@@ -14,11 +14,9 @@
 }
 
 .middle_container > ul > li {
+  /* text-align: center; */
+  position: relative;
   width: 50%;
-  text-align: center;
-}
-.middle_container > ul > li > a {
-  font-weight: bold;
 }
 
 .middle_container > ul > li:nth-child(1) {
@@ -68,10 +66,16 @@
 }
 
 .middle_container > ul > li > a {
-  position: relative;
-  top: 100px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
   font-size: 30px;
+  font-weight: bold;
   color: #ffffff;
+  text-align: center;
+  transform: translate(-50%);
 }
 
 @media (max-width: 1700px) {
@@ -116,6 +120,10 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    min-width: 460px;
+  }
+  .middle_container > ul > li {
+    width: 48%;
+    margin: 0 5px 5px 0;
+    border-radius: 20px;
   }
 }

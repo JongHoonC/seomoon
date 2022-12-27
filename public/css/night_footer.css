@@ -5,8 +5,10 @@
   justify-content: space-between;
   width: 100%;
   height: 150px;
+  padding: 0 10px;
   border-radius: 20px 20px 0 0;
   background-color: #1b1b1b;
+  box-sizing: border-box;
 }
 /*left footer*/
 .left_footer {
@@ -18,7 +20,7 @@
 }
 
 .left_footer > h1 {
-  width: 40%;
+  width: 100%;
   color: #ffffff;
   text-align: center;
 }
@@ -75,5 +77,14 @@
   }
   .left_footer > h1 {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 450px) {
+  .left_footer {
+    width: 30%;
+  }
+  .right_footer {
+    width: 55%;
   }
 }

@@ -43,3 +43,8 @@ td {
     margin-right: 10px;
   }
 }
+@media (max-width: 450px) {
+  .left_con > table > tbody > tr > td > a {
+    font-size: 13px;
+  }
+}

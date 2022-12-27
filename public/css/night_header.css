@@ -30,8 +30,8 @@ html {
 
 .top_header > ul {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 10vw;
   padding: 0.5%;
   box-sizing: border-box;
@@ -95,9 +95,9 @@ html {
 }
 
 @media (max-width: 1200px) {
-  body {
+  /* body {
     min-width: 480px;
-  }
+  } */
   .m_top_wrap {
     height: 70px;
     min-height: 60px;

@@ -41,3 +41,8 @@ p {
     width: 95%;
   }
 }
+@media (max-width: 450px) {
+  .top_container .title h2 {
+    font-size: 20px;
+  }
+}
