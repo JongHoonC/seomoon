@@ -1,8 +1,8 @@
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-  host: 'seomoon.c1s9tr2yqxmc.ap-northeast-1.rds.amazonaws.com',
-  user: 'root',
-  password: 'whdgns3853!',
+  host: 'mydb.c1s9tr2yqxmc.ap-northeast-1.rds.amazonaws.com',
+  user: 'admin',
+  password: 'Whdgns3853!',
   database: 'seomoon', //테이블 이름을 적어준다.
   dateStrings: 'date',
   multipleStatements: true,
