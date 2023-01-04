@@ -12,14 +12,17 @@ background-color: #6d6d6d; */
   box-sizing: border-box;
 }
 .night-signUp--wrap > h1 {
+  padding-left: 10px;
   color: #fefefe;
+  box-sizing: border-box;
 }
 .night-signUp--wrap > p {
-  color: #fefefe;
   margin-bottom: 40px;
+  font-size: 14px;
+  color: #fefefe;
 }
 .night-signUp--wrap > p > span {
-  color: #f00;
+  color: rgb(204, 48, 48);
 }
 
 .night-signUp--wrap > div {
@@ -30,7 +33,7 @@ background-color: #6d6d6d; */
 }
 
 .night-signUp--wrap > div > label > span {
-  color: #f00;
+  color: rgb(204, 48, 48);
 }
 .night-signUp--wrap > div > label {
   color: #fefefe;
@@ -67,8 +70,8 @@ background-color: #6d6d6d; */
 #signin {
   display: flex;
   justify-content: center;
-  padding: 20px 100px;
   margin: 30px auto;
+  padding: 20px 100px;
   background-color: #121212;
   color: #bbb;
   box-sizing: border-box;
@@ -80,7 +83,6 @@ select.box {
   margin-left: 5px;
   padding: 5px 0 5px 10px;
   border: 1px solid #949494;
-  border-radius: 4px;
   background-color: #6d6d6d;
   font-family: 'Montserrat', 'Pretendard', sans-serif;
   color: #d9d9d9;

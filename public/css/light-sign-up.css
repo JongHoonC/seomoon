@@ -12,14 +12,16 @@ color: #94af76; */
   box-sizing: border-box;
 }
 .light-signUp--wrap > h1 {
+  padding-left: 10px;
   color: #333;
 }
 .light-signUp--wrap > p {
-  color: #333;
   margin-bottom: 40px;
+  font-size: 14px;
+  color: #333;
 }
 .light-signUp--wrap > p > span {
-  color: #f00;
+  color: rgb(204, 48, 48);
 }
 
 .light-signUp--wrap > div {
@@ -30,7 +32,7 @@ color: #94af76; */
 }
 
 .light-signUp--wrap > div > label > span {
-  color: #f00;
+  color: rgb(204, 48, 48);
 }
 .light-signUp--wrap > div > label {
   color: #333;
@@ -67,12 +69,12 @@ color: #94af76; */
 #signin {
   display: flex;
   justify-content: center;
-  padding: 20px 100px;
   margin: 30px auto;
+  padding: 20px 100px;
+  border: 1px solid #94af76;
   background-color: #fefefe;
   color: #94af76;
   box-sizing: border-box;
-  border: 1px solid #94af76;
 }
 
 select.box {
@@ -81,7 +83,6 @@ select.box {
   margin-left: 5px;
   padding: 5px 0 5px 10px;
   border: 1px solid #949494;
-  border-radius: 4px;
   background-color: #fefefe;
   font-family: 'Montserrat', 'Pretendard', sans-serif;
   color: #333;
